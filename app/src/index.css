@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #292929;
+  color: #d0d0d0;
+  padding: 50px;
+  max-width: 650px;
+  margin: 0 auto;
+}

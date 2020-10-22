@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CPULoadProvider matches snapshot 1`] = `
+<Context.Provider
+  value={
+    Array [
+      10,
+      20,
+      30,
+    ]
+  }
+>
+  <div>
+    this is a child
+  </div>
+</Context.Provider>
+`;

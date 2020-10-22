@@ -1,0 +1,23 @@
+.current-load-container {
+  background-color: #464545;
+  border-radius: 4px;
+  padding: 25px;
+  -webkit-box-shadow: 10px 10px #14751a;
+          box-shadow: 10px 10px #14751a;
+  width: 45%;
+  margin-right: 5%;
+}
+
+.current-load-container-caution {
+  -webkit-box-shadow: 10px 10px #bf7814;
+          box-shadow: 10px 10px #bf7814;
+}
+
+.current-load-container-danger {
+  -webkit-box-shadow: 10px 10px #b92511;
+          box-shadow: 10px 10px #b92511;
+}
+
+.current-load-text {
+  font-size: 16px;
+}

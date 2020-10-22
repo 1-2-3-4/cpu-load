@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeavyLoad when it renders heavy load and no recovery matches snapshot 1`] = `
+<div
+  className="heavy-load-container"
+>
+  <div
+    className="heavy-load-text"
+  >
+    Heavy Load and Recovery
+  </div>
+  <div
+    className="heavy-load-details-container"
+  >
+    <React.Fragment>
+      <div
+        className="heavy-load-unresolved"
+      >
+        &gt; Heavy Load started at 1m 30s
+      </div>
+      <div
+        className="recovery-time-unresolved"
+      >
+        Issue not resolved
+      </div>
+    </React.Fragment>
+  </div>
+</div>
+`;
+
+exports[`HeavyLoad when it renders with both heavy load and recovery matches snapshot 1`] = `
+<div
+  className="heavy-load-container"
+>
+  <div
+    className="heavy-load-text"
+  >
+    Heavy Load and Recovery
+  </div>
+  <div
+    className="heavy-load-details-container"
+  >
+    <React.Fragment>
+      <div
+        className="heavy-load-resolved"
+      >
+        &gt; Heavy Load started at 1m 30s
+      </div>
+      <div
+        className="recovery-time-resolved"
+      >
+        Recovered at 5m 30s
+      </div>
+    </React.Fragment>
+  </div>
+</div>
+`;
+
+exports[`HeavyLoad when it renders with no heavy load matches snapshot 1`] = `
+<div
+  className="heavy-load-container"
+>
+  <div
+    className="heavy-load-text"
+  >
+    Heavy Load and Recovery
+  </div>
+  <div
+    className="heavy-load-details-container"
+  >
+    <div>
+      &gt; No heavy CPU load logged
+    </div>
+  </div>
+</div>
+`;
